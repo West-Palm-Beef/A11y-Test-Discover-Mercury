@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Discover Mercury – Version Select</title>
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+<style>
+
+:focus {
+outline: 0.2rem solid #ffffff;
+outline-offset: 0.2rem;
+box-shadow: 0 0 0 0.2rem #000000;
+}
+
+/* ============================================= */
+
+html, body {
+margin: 0;
+padding: 0;
+width: 100%;
+}
+
+body {
+background: fixed linear-gradient(135deg, #3a0077 0%, #7b2cbf 50%, #e0aaff 100%);
+color: #ffffff;
+font-family: sans-serif;
+text-align: center;
+}
+
+/* ============================================= */
+
+.launch-title-div {
+display: flex;
+justify-content: center;
+gap: 0.5rem;
+font-family: 'Audiowide' sans-serif;
+font-style: bold;
+}
+
+.title-1 {
+color: #ffffff; /* base text color */
+text-shadow:
+0 0 5px #ffffff,   /* small white glow */
+0 0 10px #ffffff,  /* medium white glow */
+0 0 20px #ffffff,  /* bigger colored glow */
+0 0 30px #ffffff,  /* more spread out glow */
+0 0 40px #ffffff;  /* super spread glow */
+}
+
+.title-2 {
+color: #e0aaff; /* base text color */
+text-shadow:
+0 0 5px #e0aaff,   /* small white glow */
+0 0 10px #e0aaff,  /* medium white glow */
+0 0 20px #e0aaff,  /* bigger colored glow */
+0 0 30px #e0aaff,  /* more spread out glow */
+0 0 40px #e0aaff;  /* super spread glow */
+}
+
+/* ============================================= */
+
+header {
+background: #000000;
+padding: 1rem;
+margin-bottom: 2rem;
+font-size: 4rem;
+}
+
+.h1-div {
+width: 50%;
+margin: 2rem auto;
+}
+
+h1 {
+background: #000000;
+color: #ffffff;
+border: 1px solid #ffffff;
+border-radius: 1rem;
+padding: 0.5rem;
+}
+
+/* ============================================= */
+
+.a-frame {
+background: #111827;
+margin: 2rem;
+border-radius: 1rem;
+border: 0.2rem solid #ffffff;
+}
+
+.a-style {
+display: flex;
+flex-direction: column;
+}
+
+.a-img {
+display: flex;
+flex-direction: column;     /* stack image above link */
+align-items: center;  
+}
+
+.a-img img {
+width: 60%;               /* fixed size (you can adjust) */
+height: auto;
+border: 0.2rem solid #ffffff;
+border-radius: 1rem;
+margin-bottom: 2rem;
+margin-top: 4rem;
+}
+
+a {
+display: block;
+width: fit-content;
+max-width: 100%;
+margin-bottom: 4rem;
+padding: 1rem;
+font-size: 2rem;
+font-style: bold;
+background: #3a0077;
+color: #ffffff;
+text-decoration: none;
+border-radius: 0.5rem;
+border: 0.1rem solid white;
+text-align: center;
+}
+
+a:hover {
+text-decoration: underline;
+background: #000000;
+color: #ffffff;
+}
+
+a:focus {
+text-decoration: underline;
+background: #000000;
+color: #ffffff;
+}
+
+</style>
+</head>
+
+<!-- ======================================================= -->
+
+
+<body>
+
+<header class="header-div-1">
+<div class="launch-title-div">
+
+<p class="title-1">Discover</p>
+<p class="title-2">Mercury</p>
+
+</div>
+</header>
+
+<!-- ======================================================= -->
+
+<main>
+<div class="a-frame">
+<div>
+<div>
+<h1 class="h1-div">
+<p>Select a Version of the Discover Mercury Page You'd Like to View</p>
+</h1>
+</div>
+</div>
+
+<div class="a-style">
+
+<div class="a-img">
+<img alt="" src="./images/accessible.png">
+<a href="accessible/index.html">Accessible Version </a>
+</div>
+</div>
+
+<hr aria-hidden="true" class="spacer">
+
+
+<div class="a-img">
+<img alt="" src="./images/inaccessible.png">
+<a href="inaccessible/index.html">Inaccessible Version</a>
+</div>
+
+</div>
+</main>
+
+<!-- ======================================================= -->
+
+</body>
+</html>
