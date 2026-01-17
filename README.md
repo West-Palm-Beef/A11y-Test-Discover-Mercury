@@ -1,5 +1,5 @@
 Live Site:
-https://andrew-jn-west.github.io/A11y-test-Discover-Mercury/
+https://west-palm-beef.github.io/A11y-Test-Discover-Mercury/
 
 # Discover Mercury – A11y Practice Site
 
@@ -36,6 +36,7 @@ Use this project to test with:
 - HTML, CSS (Tailwind), JavaScript
 - Static site
 - Repo includes all code needed to run and edit locally
+
 
 
 
